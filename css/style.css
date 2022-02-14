@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&family=Rubik:ital@1&display=swap');
+
+*{ 
+   margin: 0%;
+   padding: 0%;
+}
+h1{
+   display: flex;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   width: 100px; 
+   background-color: brown;
+   padding: 20px 20px 20px 20px;
+   margin: 20px 20px 20px 20px;
+}
+h2{
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   width: 200px;
+}
+h3{
+   color: white;
+   font-size: 50px;
+   margin-left: 750px;
+   margin-top: -950px;
+}
+header{
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+   background-color: black;
+   margin-bottom: 50px;
+}
+ul li{
+   display: inline-block; 
+   margin-left: 10px;
+   margin-top: 100px;
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   background: red ;
+}
+body{
+   background-image: url(../imagenes/fondo.jpg);
+}
+h4{
+   color: red;
+} 
+footer{
+   background-color: black;
+}
+.fondoRojo{
+   background-color: rgb(245, 132, 132);
+   width: 200px;
+}
+ p{
+   font-size: 30px;
+   color: white;
+ } 
+ tr{ 
+    color: white;
+ }
+ form{
+    color: rgb(241, 241, 134);
+ }
+li a{
+   color: white;
+   text-decoration: none;
+   border-color: peachpuff;
+}
+li{
+   padding: 10px;
+   color: white;
+}
+form{ 
+   color: white;
+}
+.tituloSecundario{
+   margin: 61px 331px -16px -315px;
+   padding: 69px 8px 0px 59px;
+   font-family: serif;
+}
+#grids{
+ display: grid;
+ grid-template-columns: 25% 25% 25% auto;
+ grid-template-rows: 25% 25% auto auto;
+ 
+}
+.leccion{
+   margin-left: 400px;
+}
+.curso{
+   display: grid;
+   grid-template-columns: 100% 25%;
+   
+}
+@media screen and (min-width: 320px){
+   #celular {
+      grid-template-columns: 100%;
+      grid-template-rows: 50% 50%;
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+   }
+}
+   
